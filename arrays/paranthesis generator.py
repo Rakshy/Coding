@@ -1,6 +1,6 @@
 
 def generateparanthesis(n):
-    li=['()']
+    li=['{}']
     for i in range(0,n-1):
         temp=[]
         for item in li:
@@ -14,5 +14,4 @@ def generateparanthesis(n):
         del li[0]
     return li
 
-n=3
-generateparanthesis(n)
+print(generateparanthesis(2))
